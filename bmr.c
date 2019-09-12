@@ -14,7 +14,7 @@ double bmr2=0;
 
 printf("Enter subject's gender (1=female, 2=male): ");
 scanf("%lf",&sex);
-if(sex!==1 || sex!==2){
+if(sex!=1 || sex!=2){
   printf("Error found for gender");
 }
 
